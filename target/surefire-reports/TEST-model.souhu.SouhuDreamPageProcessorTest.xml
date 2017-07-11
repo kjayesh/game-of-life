@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="model.souhu.SouhuDreamPageProcessorTest" time="0.133" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="model.souhu.SouhuDreamPageProcessorTest" time="0.163" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\work_software\jdk1.8.0_121\jre\bin"/>
@@ -26,12 +26,14 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
+    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\huwei\.jenkins\workspace\gameoflifedefault\target\cobertura\cobertura.ser"/>
     <property name="classworlds.conf" value="D:\work_software\apache-maven-3.0.5\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\work_software\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\work_software\cmder\bin;D:\work_software\cmder\vendor\git-for-windows\cmd;D:\work_software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\work_software\cmder\vendor\conemu-maximus5;D:\work_software\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\work_software\jdk1.8.0_121\bin;D:\work_software\jdk1.8.0_121/jre/bin;D:\work_software\apache-maven-3.0.5/bin;D:\work_software\TortoiseSVN\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\work_software\scala\bin;D:\work_software\sbt\bin;D:\work_software\sbt\bin;D:\work_software\hadoop\bin;D:\work_software\TortoiseGit\bin;D:\work_software\Python27;D:\work_software\Python27\Scripts;D:\work_software\UltraEdit;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\work_software\cygwin\bin;D:\work_software\HelixVisual;D:\work_software\HelixVisual\DVCS\;D:\work_software\phantomjs-2.1.1-windows\bin;D:\work_software\cmder\vendor\git-for-windows\usr\bin;D:\work_software\cmder\vendor\git-for-windows\usr\share\vim\vim74;D:\work_software\cmder\;."/>
+    <property name="java.library.path" value="D:\work_software\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\work_software\apache-maven-3.0.5/bin;D:\work_software\jdk1.8.0_121/bin;D:\work_software\jdk1.8.0_121/bin;D:\work_software\cmder\bin;D:\work_software\cmder\vendor\git-for-windows\cmd;D:\work_software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\work_software\cmder\vendor\conemu-maximus5;D:\work_software\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\work_software\jdk1.8.0_121\bin;D:\work_software\jdk1.8.0_121/jre/bin;D:\work_software\apache-maven-3.0.5/bin;D:\work_software\TortoiseSVN\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\work_software\scala\bin;D:\work_software\sbt\bin;D:\work_software\sbt\bin;D:\work_software\hadoop\bin;D:\work_software\TortoiseGit\bin;D:\work_software\Python27;D:\work_software\Python27\Scripts;D:\work_software\UltraEdit;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\work_software\cygwin\bin;D:\work_software\HelixVisual;D:\work_software\HelixVisual\DVCS\;D:\work_software\phantomjs-2.1.1-windows\bin;D:\work_software\cmder\vendor\git-for-windows\usr\bin;D:\work_software\cmder\vendor\git-for-windows\usr\share\vim\vim74;D:\work_software\cmder\;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cobertura.report.format" value="xml"/>
     <property name="os.version" value="6.3"/>
     <property name="user.home" value="C:\Users\huwei"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
@@ -43,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\work_software\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -s D:\work_software\apache-maven-3.0.5\conf\settings.xml -gs D:\work_software\apache-maven-3.0.5\conf\settings.xml cobertura:cobertura -Dcobertura.report.format=xml"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,14 +53,13 @@
     <property name="java.version" value="1.8.0_121"/>
     <property name="java.ext.dirs" value="D:\work_software\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\work_software\jdk1.8.0_121\jre\lib\resources.jar;D:\work_software\jdk1.8.0_121\jre\lib\rt.jar;D:\work_software\jdk1.8.0_121\jre\lib\sunrsasign.jar;D:\work_software\jdk1.8.0_121\jre\lib\jsse.jar;D:\work_software\jdk1.8.0_121\jre\lib\jce.jar;D:\work_software\jdk1.8.0_121\jre\lib\charsets.jar;D:\work_software\jdk1.8.0_121\jre\lib\jfr.jar;D:\work_software\jdk1.8.0_121\jre\classes"/>
-    <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="D:\work_software\apache-maven-3.0.5"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="project.build.outputDirectory" value="C:\Users\huwei\.jenkins\workspace\gameoflifedefault\target\generated-classes\cobertura"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
