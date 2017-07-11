@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ch.ethz.ganymed:ganymed-ssh2:build207">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/ch/ethz/ganymed/ganymed-ssh2/build207/ganymed-ssh2-build207.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/ch/ethz/ganymed/ganymed-ssh2/build207/ganymed-ssh2-build207-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/ch/ethz/ganymed/ganymed-ssh2/build207/ganymed-ssh2-build207-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
